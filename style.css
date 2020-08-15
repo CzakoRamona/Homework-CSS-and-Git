@@ -11,9 +11,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+
+a:hover{
+    background-color: yellowgreen;
 }
 
 .left-section {
+    height: 40px;
+    border-top: 2px solid green;
     display: flex;
 }
 
@@ -32,6 +39,8 @@ header {
 }
 
 .phone {
+    height: 40px;
+    border-top: 2px solid green;
     width: 200px;
     text-align: right;
 }
@@ -44,7 +53,7 @@ header {
 
 section {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-between; 
 }
 
 article {
@@ -54,6 +63,19 @@ article {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.numberCircle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+
+    background:yellowgreen;
+    border: 2px solid green;
+    color:white;
+    text-align: center;
+
+    font: 20px Arial, sans-serif;
 }
 
 h2 {
