@@ -6,12 +6,12 @@
 }
 
 header {
+    border-top: 2px solid green;
     height: 40px;
     min-width: 900px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 a:hover{
@@ -19,8 +19,7 @@ a:hover{
 }
 
 .left-section {
-    height: 40px;
-    border-top: 2px solid green;
+    height: 40px;  
     display: flex;
 }
 
