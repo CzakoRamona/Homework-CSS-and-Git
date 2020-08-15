@@ -11,9 +11,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-top: 2px solid violet;
 }
 
 .left-section {
+    height: 40px;
+    border-top: 2px solid violet;
     display: flex;
 }
 
@@ -32,6 +35,8 @@ header {
 }
 
 .phone {
+    height: 40px;
+    border-top: 2px solid violet;
     width: 200px;
     text-align: right;
 }
@@ -44,7 +49,7 @@ header {
 
 section {
     display: flex;
-    justify-content: center; 
+    justify-content: space-between; 
 }
 
 article {
@@ -54,6 +59,19 @@ article {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.numberCircle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+
+    background:blueviolet;
+    border: 2px solid indigo;
+    color:white;
+    text-align: center;
+
+    font: 20px Arial, sans-serif;
 }
 
 h2 {
