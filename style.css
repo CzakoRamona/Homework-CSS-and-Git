@@ -13,6 +13,20 @@ header {
     justify-content: center;
 }
 
+.left-section {
+    display: flex;
+}
+
+.left-section .logo {
+    width: 200px;
+}
+
+.left-section nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .left-section nav a {
     min-width: 100px;
 }
@@ -20,6 +34,17 @@ header {
 .phone {
     width: 200px;
     text-align: right;
+}
+.phone::before {
+    width: 20px;
+    height: 20px;
+    content: "@";
+    margin-right: 5px;
+}
+
+section {
+    display: flex;
+    justify-content: center; 
 }
 
 article {
