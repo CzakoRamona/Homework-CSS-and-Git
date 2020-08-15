@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px dotted grey;
+}
+
+header {
+    height: 40px;
+    min-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section nav a {
+    min-width: 100px;
+}
+
+.phone {
+    width: 200px;
+    text-align: right;
+}
+
+article {
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
